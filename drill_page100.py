@@ -3,7 +3,7 @@ import os
 
 
 def getTxtFile():
-    path = "c:\\test\\"
+    path = "c:\\"
     files = os.listdir(path)
     for i in files:
         name, ext = os.path.splitext(i)
